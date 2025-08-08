@@ -112,3 +112,22 @@ SourceArt/**/*.tga
 *.nuget.props
 *.nuget.targets
 packages/
+
+# Ignore Unreal Engine & Visual Studio generated folders/files
+ProjectZero/.vs/
+ProjectZero/Binaries/
+ProjectZero/DerivedDataCache/
+ProjectZero/Intermediate/
+ProjectZero/Saved/
+ProjectZero/*.sln
+ProjectZero/*.vsconfig
+ProjectZero/*.VC.db
+ProjectZero/*.VC.opendb
+
+# Ignore generated files inside plugins
+ProjectZero/Plugins/**/Binaries/
+ProjectZero/Plugins/**/Intermediate/
+
+# Optional: ignore source art
+ProjectZero/SourceArt/**/*.png
+ProjectZero/SourceArt/**/*.tga
